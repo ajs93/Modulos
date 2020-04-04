@@ -36,7 +36,7 @@ int main(void)
 	RingBufferInit(&rb_2);
 
 	// Lleno el buffer 1 con valores continuos
-	for(i = 0; i < rb_1.element_amount; i++)
+	for(i = 0; i < RingBufferGetTotalSpace(&rb_1); i++)
 	{
 		RingBufferPutElement(&rb_1, &i);
 	}

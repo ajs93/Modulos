@@ -410,3 +410,6 @@ java.lang.Exception: The project description file (.project) for 'Modulos' is mi
 
 !ENTRY org.eclipse.cdt.core 1 0 2020-04-04 19:21:23.234
 !MESSAGE Indexed 'Modulos' (1 sources, 1 headers) in 0.06 sec: 40 declarations; 77 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.jface.text 2 0 2020-04-04 19:34:12.149
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

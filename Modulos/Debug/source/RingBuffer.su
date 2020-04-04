@@ -4,3 +4,4 @@ RingBuffer.c:55:5:RingBufferPutElement	32	static
 RingBuffer.c:81:14:RingBufferGetAvailableElements	16	static
 RingBuffer.c:91:14:RingBufferGetAvailableSpace	16	static
 RingBuffer.c:100:6:RingBufferClear	16	static
+RingBuffer.c:111:14:RingBufferGetTotalSpace	16	static

@@ -57,6 +57,13 @@ unsigned int RingBufferGetAvailableElements(const RingBuffer *rb);
 unsigned int RingBufferGetAvailableSpace(const RingBuffer *rb);
 
 /**
+ * @brief Obtener cantidad de lugares totales en el buffer circular
+ * @param[in] rb Puntero al buffer circular a consultar
+ * @return Cantidad de lugares totales en el buffer circular
+ */
+unsigned int RingBufferGetTotalSpace(const RingBuffer *rb);
+
+/**
  * @brief Limpiar buffer circular
  * @param[in] rb Puntero al buffer circular a limpiar
  */

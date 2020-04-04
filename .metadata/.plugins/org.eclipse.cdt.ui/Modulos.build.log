@@ -1,4 +1,4 @@
-19:21:32 **** Incremental Build of configuration Debug for project Modulos ****
+19:34:36 **** Incremental Build of configuration Debug for project Modulos ****
 make -r all 
 Building file: ../source/RingBuffer.c
 Invoking: MCU C Compiler
@@ -15,8 +15,8 @@ make --no-print-directory post-build
 Performing post-build steps
 arm-none-eabi-size "libModulos.a" ; # arm-none-eabi-objdump -h -S "libModulos.a" >"libModulos.lss"
    text	   data	    bss	    dec	    hex	filename
-    376	      0	      0	    376	    178	RingBuffer.o (ex libModulos.a)
+    396	      0	      0	    396	    18c	RingBuffer.o (ex libModulos.a)
  
 
-19:21:33 Build Finished. 0 errors, 0 warnings. (took 827ms)
+19:34:36 Build Finished. 0 errors, 0 warnings. (took 887ms)
 

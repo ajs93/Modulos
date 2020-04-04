@@ -102,3 +102,13 @@ void RingBufferClear(RingBuffer *rb)
 	*((unsigned int *) &rb->in_idx) = rb->out_idx;
 	*((unsigned int *) &rb->current_elements_amount) = 0;
 }
+
+/**
+ * @brief Obtener cantidad de lugares totales en el buffer circular
+ * @param[in] rb Puntero al buffer circular a consultar
+ * @return Cantidad de lugares totales en el buffer circular
+ */
+unsigned int RingBufferGetTotalSpace(const RingBuffer *rb)
+{
+	return rb->element_amount;
+}
