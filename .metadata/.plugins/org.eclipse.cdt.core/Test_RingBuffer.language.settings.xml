@@ -5,9 +5,6 @@
 			<provider id="com.crt.advproject.GCCBuildCommandParser">
 				<language id="org.eclipse.cdt.core.gcc">
 					<resource project-relative-path="src/crp.c">
-						<entry kind="includePath" name="/Modulos/includes">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
 						<entry kind="macro" name="CORE_M0PLUS" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
@@ -29,9 +26,6 @@
 						<entry kind="macro" name="__REDLIB__" value="1"/>
 					</resource>
 					<resource project-relative-path="src/cr_startup_lpc84x.c">
-						<entry kind="includePath" name="/Modulos/includes">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
 						<entry kind="macro" name="CORE_M0PLUS" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
@@ -53,9 +47,6 @@
 						<entry kind="macro" name="__REDLIB__" value="1"/>
 					</resource>
 					<resource project-relative-path="src/Test_RingBuffer.c">
-						<entry kind="includePath" name="/Modulos/includes">
-							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
-						</entry>
 						<entry kind="macro" name="CORE_M0PLUS" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>

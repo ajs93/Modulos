@@ -29,7 +29,7 @@ all: Test_RingBuffer.axf
 Test_RingBuffer.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug" -Xlinker -Map="Test_RingBuffer.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "Test_RingBuffer_Debug.ld" -o "Test_RingBuffer.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug" -Xlinker -Map="Test_RingBuffer.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "Test_RingBuffer_Debug.ld" -o "Test_RingBuffer.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

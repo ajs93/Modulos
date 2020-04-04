@@ -1,13 +1,13 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                               ./src/Test_RingBuffer.o (RingBufferInit)
 /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(memset.o)
                               ./src/Test_RingBuffer.o (memset)
 /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
                               ./src/cr_startup_lpc84x.o (__main)
 /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
-                              /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o) (__aeabi_uidivmod)
+                              /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o) (__aeabi_uidivmod)
 /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_idiv0.o)
                               /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o) (__aeabi_idiv0)
 /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libcr_eabihelpers.a(memcpy.o)
@@ -63,10 +63,10 @@ Discarded input sections
  .comment       0x0000000000000000       0x76 ./src/mtb.o
  .ARM.attributes
                 0x0000000000000000       0x31 ./src/mtb.o
- .group         0x0000000000000000        0xc /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
- .text          0x0000000000000000        0x0 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
- .data          0x0000000000000000        0x0 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
- .bss           0x0000000000000000        0x0 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+ .group         0x0000000000000000        0xc /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+ .text          0x0000000000000000        0x0 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+ .data          0x0000000000000000        0x0 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+ .bss           0x0000000000000000        0x0 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
  .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(memset.o)
  .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(memset.o)
  .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(memset.o)
@@ -105,7 +105,7 @@ LOAD ./src/aeabi_romdiv_patch.o
 LOAD ./src/cr_startup_lpc84x.o
 LOAD ./src/crp.o
 LOAD ./src/mtb.o
-LOAD /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a
+LOAD /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a
 START GROUP
 LOAD /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a
 LOAD /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libcr_eabihelpers.a
@@ -186,22 +186,22 @@ END GROUP
  .text.main     0x00000000000001e8      0x12c ./src/Test_RingBuffer.o
                 0x00000000000001e8                main
  .text.RingBufferInit
-                0x0000000000000314       0x28 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+                0x0000000000000314       0x28 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                 0x0000000000000314                RingBufferInit
  .text.RingBufferPopElement
-                0x000000000000033c       0x80 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+                0x000000000000033c       0x80 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                 0x000000000000033c                RingBufferPopElement
  .text.RingBufferPutElement
-                0x00000000000003bc       0x80 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+                0x00000000000003bc       0x80 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                 0x00000000000003bc                RingBufferPutElement
  .text.RingBufferGetAvailableElements
-                0x000000000000043c       0x14 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+                0x000000000000043c       0x14 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                 0x000000000000043c                RingBufferGetAvailableElements
  .text.RingBufferGetAvailableSpace
-                0x0000000000000450       0x1a /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+                0x0000000000000450       0x1a /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                 0x0000000000000450                RingBufferGetAvailableSpace
  .text.RingBufferClear
-                0x000000000000046a       0x22 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+                0x000000000000046a       0x22 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                 0x000000000000046a                RingBufferClear
  .text.memset   0x000000000000048c        0x8 /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(memset.o)
                 0x000000000000048c                memset
@@ -301,12 +301,12 @@ OUTPUT(Test_RingBuffer.axf elf32-littlearm)
 .debug_info     0x0000000000000000      0x595
  .debug_info    0x0000000000000000      0x153 ./src/Test_RingBuffer.o
  .debug_info    0x0000000000000153      0x226 ./src/cr_startup_lpc84x.o
- .debug_info    0x0000000000000379      0x21c /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+ .debug_info    0x0000000000000379      0x21c /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
 
 .debug_abbrev   0x0000000000000000      0x312
  .debug_abbrev  0x0000000000000000       0xd5 ./src/Test_RingBuffer.o
  .debug_abbrev  0x00000000000000d5      0x117 ./src/cr_startup_lpc84x.o
- .debug_abbrev  0x00000000000001ec      0x126 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+ .debug_abbrev  0x00000000000001ec      0x126 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
 
 .debug_aranges  0x0000000000000000       0xc8
  .debug_aranges
@@ -314,39 +314,39 @@ OUTPUT(Test_RingBuffer.axf elf32-littlearm)
  .debug_aranges
                 0x0000000000000020       0x60 ./src/cr_startup_lpc84x.o
  .debug_aranges
-                0x0000000000000080       0x48 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+                0x0000000000000080       0x48 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
 
 .debug_ranges   0x0000000000000000       0x98
  .debug_ranges  0x0000000000000000       0x10 ./src/Test_RingBuffer.o
  .debug_ranges  0x0000000000000010       0x50 ./src/cr_startup_lpc84x.o
- .debug_ranges  0x0000000000000060       0x38 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+ .debug_ranges  0x0000000000000060       0x38 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
 
 .debug_macro    0x0000000000000000     0x15ec
  .debug_macro   0x0000000000000000       0x24 ./src/Test_RingBuffer.o
  .debug_macro   0x0000000000000024      0xa8a ./src/Test_RingBuffer.o
  .debug_macro   0x0000000000000aae       0x82 ./src/Test_RingBuffer.o
  .debug_macro   0x0000000000000b30       0x1d ./src/cr_startup_lpc84x.o
- .debug_macro   0x0000000000000b4d       0x1b /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
- .debug_macro   0x0000000000000b68      0xa84 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+ .debug_macro   0x0000000000000b4d       0x1b /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+ .debug_macro   0x0000000000000b68      0xa84 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
 
-.debug_line     0x0000000000000000      0x4cc
- .debug_line    0x0000000000000000      0x1c7 ./src/Test_RingBuffer.o
- .debug_line    0x00000000000001c7      0x133 ./src/cr_startup_lpc84x.o
- .debug_line    0x00000000000002fa      0x1d2 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+.debug_line     0x0000000000000000      0x4bc
+ .debug_line    0x0000000000000000      0x1bf ./src/Test_RingBuffer.o
+ .debug_line    0x00000000000001bf      0x133 ./src/cr_startup_lpc84x.o
+ .debug_line    0x00000000000002f2      0x1ca /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
 
-.debug_str      0x0000000000000000     0x3482
+.debug_str      0x0000000000000000     0x347a
  .debug_str     0x0000000000000000     0x3213 ./src/Test_RingBuffer.o
                                        0x3220 (size before relaxing)
  .debug_str     0x0000000000003213      0x18b ./src/cr_startup_lpc84x.o
                                        0x2ebc (size before relaxing)
- .debug_str     0x000000000000339e       0xe4 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
-                                       0x2e12 (size before relaxing)
+ .debug_str     0x000000000000339e       0xdc /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+                                       0x2e0a (size before relaxing)
 
 .comment        0x0000000000000000       0x75
  .comment       0x0000000000000000       0x75 ./src/Test_RingBuffer.o
                                          0x76 (size before relaxing)
  .comment       0x0000000000000075       0x76 ./src/cr_startup_lpc84x.o
- .comment       0x0000000000000075       0x76 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+ .comment       0x0000000000000075       0x76 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
  .comment       0x0000000000000075       0x76 /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(memset.o)
  .comment       0x0000000000000075       0x76 /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
 
@@ -357,7 +357,7 @@ OUTPUT(Test_RingBuffer.axf elf32-littlearm)
  .ARM.attributes
                 0x000000000000002c       0x2c ./src/cr_startup_lpc84x.o
  .ARM.attributes
-                0x0000000000000058       0x2c /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+                0x0000000000000058       0x2c /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
  .ARM.attributes
                 0x0000000000000084       0x2c /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(memset.o)
  .ARM.attributes
@@ -372,7 +372,7 @@ OUTPUT(Test_RingBuffer.axf elf32-littlearm)
 .debug_frame    0x0000000000000000      0x21c
  .debug_frame   0x0000000000000000       0x34 ./src/Test_RingBuffer.o
  .debug_frame   0x0000000000000034      0x118 ./src/cr_startup_lpc84x.o
- .debug_frame   0x000000000000014c       0xd0 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+ .debug_frame   0x000000000000014c       0xd0 /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
 
 Cross Reference Table
 
@@ -407,17 +407,17 @@ PININT6_IRQHandler                                ./src/cr_startup_lpc84x.o
 PININT7_IRQHandler                                ./src/cr_startup_lpc84x.o
 PendSV_Handler                                    ./src/cr_startup_lpc84x.o
 ResetISR                                          ./src/cr_startup_lpc84x.o
-RingBufferClear                                   /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+RingBufferClear                                   /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                                                   ./src/Test_RingBuffer.o
-RingBufferGetAvailableElements                    /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+RingBufferGetAvailableElements                    /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                                                   ./src/Test_RingBuffer.o
-RingBufferGetAvailableSpace                       /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+RingBufferGetAvailableSpace                       /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                                                   ./src/Test_RingBuffer.o
-RingBufferInit                                    /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+RingBufferInit                                    /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                                                   ./src/Test_RingBuffer.o
-RingBufferPopElement                              /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+RingBufferPopElement                              /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                                                   ./src/Test_RingBuffer.o
-RingBufferPutElement                              /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+RingBufferPutElement                              /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
                                                   ./src/Test_RingBuffer.o
 SCT_IRQHandler                                    ./src/cr_startup_lpc84x.o
 SPI0_IRQHandler                                   ./src/cr_startup_lpc84x.o
@@ -449,7 +449,7 @@ __aeabi_memset4                                   /usr/local/mcuxpressoide-11.0.
 __aeabi_memset8                                   /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libcr_eabihelpers.a(memcpy.o)
 __aeabi_uidiv                                     /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
 __aeabi_uidivmod                                  /usr/local/mcuxpressoide-11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libcr_eabihelpers.a(division_32.o)
-                                                  /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
+                                                  /home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug/libModulos.a(RingBuffer.o)
 __bss_section_table_end                           ./src/cr_startup_lpc84x.o
 __data_section_table                              ./src/cr_startup_lpc84x.o
 __data_section_table_end                          ./src/cr_startup_lpc84x.o

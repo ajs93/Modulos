@@ -791,3 +791,149 @@ arm-none-eabi-size "Test_RingBuffer.axf"; # arm-none-eabi-objcopy -v -O binary "
    text	   data	    bss	    dec	    hex	filename
    1344	      0	    100	   1444	    5a4	Test_RingBuffer.axf
  
+19:20:11 **** Incremental Build of configuration Debug for project Test_RingBuffer ****
+make -r -j4 all 
+Building file: ../src/Test_RingBuffer.c
+Building file: ../src/aeabi_romdiv_patch.s
+Building file: ../src/cr_startup_lpc84x.c
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/Test_RingBuffer.d" -MT"src/Test_RingBuffer.o" -MT"src/Test_RingBuffer.d" -o "src/Test_RingBuffer.o" "../src/Test_RingBuffer.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__LPC84X__ -D__REDLIB__ -g3 -mcpu=cortex-m0 -mthumb -specs=redlib.specs -o "src/aeabi_romdiv_patch.o" "../src/aeabi_romdiv_patch.s"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc84x.d" -MT"src/cr_startup_lpc84x.o" -MT"src/cr_startup_lpc84x.d" -o "src/cr_startup_lpc84x.o" "../src/cr_startup_lpc84x.c"
+Finished building: ../src/aeabi_romdiv_patch.s
+../src/Test_RingBuffer.c:13:10: fatal error: RingBuffer.h: No such file or directory
+src/subdir.mk:31: recipe for target 'src/Test_RingBuffer.o' failed
+ #include <RingBuffer.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/Test_RingBuffer.o] Error 1
+make: *** Waiting for unfinished jobs....
+ 
+Finished building: ../src/crp.c
+ 
+Finished building: ../src/cr_startup_lpc84x.c
+ 
+"make -r -j4 all" terminated with exit code 2. Build might be incomplete.
+19:21:25 **** Build of configuration Debug for project Modulos ****
+make -r all 
+Building file: ../source/RingBuffer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__REDLIB__ -DCORE_M0PLUS -D__LPC84X__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/RingBuffer.d" -MT"source/RingBuffer.o" -MT"source/RingBuffer.d" -o "source/RingBuffer.o" "../source/RingBuffer.c"
+Finished building: ../source/RingBuffer.c
+ 
+Building target: libModulos.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libModulos.a"  ./source/RingBuffer.o   
+Finished building target: libModulos.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libModulos.a" ; # arm-none-eabi-objdump -h -S "libModulos.a" >"libModulos.lss"
+   text	   data	    bss	    dec	    hex	filename
+    376	      0	      0	    376	    178	RingBuffer.o (ex libModulos.a)
+ 
+19:21:26 **** Incremental Build of configuration Debug for project Test_RingBuffer ****
+make -r -j4 all 
+Building file: ../src/Test_RingBuffer.c
+Building file: ../src/aeabi_romdiv_patch.s
+Building file: ../src/cr_startup_lpc84x.c
+Invoking: MCU C Compiler
+Invoking: MCU Assembler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/Test_RingBuffer.d" -MT"src/Test_RingBuffer.o" -MT"src/Test_RingBuffer.d" -o "src/Test_RingBuffer.o" "../src/Test_RingBuffer.c"
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__LPC84X__ -D__REDLIB__ -g3 -mcpu=cortex-m0 -mthumb -specs=redlib.specs -o "src/aeabi_romdiv_patch.o" "../src/aeabi_romdiv_patch.s"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc84x.d" -MT"src/cr_startup_lpc84x.o" -MT"src/cr_startup_lpc84x.d" -o "src/cr_startup_lpc84x.o" "../src/cr_startup_lpc84x.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/aeabi_romdiv_patch.s
+ 
+../src/Test_RingBuffer.c: In function 'main':
+../src/Test_RingBuffer.c:38:17: error: assignment of read-only member 'data_size'
+  rb_1.data_size = 1;
+                 ^
+../src/Test_RingBuffer.c:55:7: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   int resultado;
+       ^~~~~~~~~
+make: *** [src/Test_RingBuffer.o] Error 1
+src/subdir.mk:31: recipe for target 'src/Test_RingBuffer.o' failed
+Building file: ../src/mtb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/mtb.d" -MT"src/mtb.o" -MT"src/mtb.d" -o "src/mtb.o" "../src/mtb.c"
+make: *** Waiting for unfinished jobs....
+Finished building: ../src/crp.c
+ 
+Finished building: ../src/cr_startup_lpc84x.c
+ 
+Finished building: ../src/mtb.c
+ 
+"make -r -j4 all" terminated with exit code 2. Build might be incomplete.
+19:21:32 **** Incremental Build of configuration Debug for project Modulos ****
+make -r all 
+Building file: ../source/RingBuffer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__REDLIB__ -DCORE_M0PLUS -D__LPC84X__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/RingBuffer.d" -MT"source/RingBuffer.o" -MT"source/RingBuffer.d" -o "source/RingBuffer.o" "../source/RingBuffer.c"
+Finished building: ../source/RingBuffer.c
+ 
+Building target: libModulos.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libModulos.a"  ./source/RingBuffer.o   
+arm-none-eabi-ar: creating libModulos.a
+Finished building target: libModulos.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libModulos.a" ; # arm-none-eabi-objdump -h -S "libModulos.a" >"libModulos.lss"
+   text	   data	    bss	    dec	    hex	filename
+    376	      0	      0	    376	    178	RingBuffer.o (ex libModulos.a)
+ 
+19:21:33 **** Incremental Build of configuration Debug for project Test_RingBuffer ****
+make -r -j4 all 
+Building file: ../src/Test_RingBuffer.c
+Building file: ../src/aeabi_romdiv_patch.s
+Building file: ../src/crp.c
+Building file: ../src/cr_startup_lpc84x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/Test_RingBuffer.d" -MT"src/Test_RingBuffer.o" -MT"src/Test_RingBuffer.d" -o "src/Test_RingBuffer.o" "../src/Test_RingBuffer.c"
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__LPC84X__ -D__REDLIB__ -g3 -mcpu=cortex-m0 -mthumb -specs=redlib.specs -o "src/aeabi_romdiv_patch.o" "../src/aeabi_romdiv_patch.s"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc84x.d" -MT"src/cr_startup_lpc84x.o" -MT"src/cr_startup_lpc84x.d" -o "src/cr_startup_lpc84x.o" "../src/cr_startup_lpc84x.c"
+../src/Test_RingBuffer.c: In function 'main':
+../src/Test_RingBuffer.c:53:7: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   int resultado;
+       ^~~~~~~~~
+Finished building: ../src/aeabi_romdiv_patch.s
+Finished building: ../src/crp.c
+ 
+Building file: ../src/mtb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/mtb.d" -MT"src/mtb.o" -MT"src/mtb.d" -o "src/mtb.o" "../src/mtb.c"
+ 
+Finished building: ../src/mtb.c
+ 
+Finished building: ../src/Test_RingBuffer.c
+ 
+Finished building: ../src/cr_startup_lpc84x.c
+ 
+Building target: Test_RingBuffer.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Debug" -Xlinker -Map="Test_RingBuffer.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "Test_RingBuffer_Debug.ld" -o "Test_RingBuffer.axf"  ./src/Test_RingBuffer.o ./src/aeabi_romdiv_patch.o ./src/cr_startup_lpc84x.o ./src/crp.o ./src/mtb.o   -lModulos
+Memory region         Used Size  Region Size  %age Used
+        MFlash64:        1344 B        64 KB      2.05%
+        RamLoc16:         100 B        16 KB      0.61%
+Finished building target: Test_RingBuffer.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Test_RingBuffer.axf"; # arm-none-eabi-objcopy -v -O binary "Test_RingBuffer.axf" "Test_RingBuffer.bin" ; # checksum -p LPC845 -d "Test_RingBuffer.bin";
+   text	   data	    bss	    dec	    hex	filename
+   1344	      0	    100	   1444	    5a4	Test_RingBuffer.axf
+ 
