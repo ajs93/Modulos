@@ -1,0 +1,22 @@
+19:08:23 **** Incremental Build of configuration Debug for project Modulos ****
+make -r all 
+Building file: ../source/RingBuffer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -D__REDLIB__ -DCORE_M0PLUS -D__LPC84X__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/RingBuffer.d" -MT"source/RingBuffer.o" -MT"source/RingBuffer.d" -o "source/RingBuffer.o" "../source/RingBuffer.c"
+Finished building: ../source/RingBuffer.c
+ 
+Building target: libModulos.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libModulos.a"  ./source/RingBuffer.o   
+arm-none-eabi-ar: creating libModulos.a
+Finished building target: libModulos.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libModulos.a" ; # arm-none-eabi-objdump -h -S "libModulos.a" >"libModulos.lss"
+   text	   data	    bss	    dec	    hex	filename
+    376	      0	      0	    376	    178	RingBuffer.o (ex libModulos.a)
+ 
+
+19:08:23 Build Finished. 0 errors, 0 warnings. (took 770ms)
+

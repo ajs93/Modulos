@@ -1,0 +1,24 @@
+18:48:28 **** Incremental Build of configuration Debug for project Test_modulos ****
+make -r -j4 all 
+Building file: ../src/Test_modulos.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__MTB_DISABLE -D__MTB_BUFFER_SIZE=256 -D__LPC84X__ -D__REDLIB__ -I"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/includes" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/Test_modulos.d" -MT"src/Test_modulos.o" -MT"src/Test_modulos.d" -o "src/Test_modulos.o" "../src/Test_modulos.c"
+Finished building: ../src/Test_modulos.c
+ 
+Building target: Test_modulos.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/augusto/Desktop/InfoII/Libreria_modulos/Modulos/Modulos/Debug" -Xlinker -Map="Test_modulos.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "Test_modulos_Debug.ld" -o "Test_modulos.axf"  ./src/Test_modulos.o ./src/aeabi_romdiv_patch.o ./src/cr_startup_lpc84x.o ./src/crp.o ./src/mtb.o   -lModulos
+Memory region         Used Size  Region Size  %age Used
+        MFlash64:         700 B        64 KB      1.07%
+        RamLoc16:         100 B        16 KB      0.61%
+Finished building target: Test_modulos.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Test_modulos.axf"; # arm-none-eabi-objcopy -v -O binary "Test_modulos.axf" "Test_modulos.bin" ; # checksum -p LPC845 -d "Test_modulos.bin";
+   text	   data	    bss	    dec	    hex	filename
+    700	      0	    100	    800	    320	Test_modulos.axf
+ 
+
+18:48:28 Build Finished. 0 errors, 0 warnings. (took 825ms)
+

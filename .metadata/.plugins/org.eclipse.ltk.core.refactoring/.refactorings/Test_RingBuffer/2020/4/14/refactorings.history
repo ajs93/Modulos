@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Test_RingBuffer/src/Test_modulos.c&apos; to &apos;Test_RingBuffer.c&apos;" description="Rename resource &apos;Test_modulos.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Test_modulos.c" name="Test_RingBuffer.c" stamp="1586037064783" updateReferences="true"/>
+</session>
